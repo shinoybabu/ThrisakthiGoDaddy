@@ -1,21 +1,37 @@
 <!DOCTYPE html><html lang="en">
 
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109850769-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-109850769-1');
+	</script>
+
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="style/js/slide.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/css/slide.css">
+
 	<!-- Basic informations -->
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
 
 	<!-- Site informations -->
-	<title>Aurora Template</title>
-	<meta name="author" content="Dominik Serafin">
-	<meta name="description" content="Free HTML5 Template created by Dominik Serafin.">
+	<title>Thrisakthi Devasthanam</title>
+	<meta name="author" content="Chandrasekharan P V">
+	<meta name="description" content="Thrisakthi By Chandrasekharan P V">
 
 	<!-- Open Graph -->
-	<meta property="og:title" content="Free Aurora Template">
-	<meta property="og:description" content="Free HTML5 Template created by Dominik Serafin.">
-	<meta property="og:url" content="http://serafin.io/aurora-template/">
-	<meta property="og:image" content="http://serafin.io/aurora-template/content/og_image.png">
+	<meta property="og:title" content="thrisakthi.com">
+	<meta property="og:description" content="Thrisakthi By Chandrasekharan P V">
+	<meta property="og:url" content="http://thrisakthi.com/">
+	<!--<meta property="og:image" content="http://serafin.io/aurora-template/content/og_image.png">-->
 
 	<!-- Twitter Card -->
 	<!--
@@ -85,26 +101,26 @@
 				<div class="header__hamburger-block">&nbsp;</div>
 			</div>
 			<nav class="header__navigation">
-				<a href="#start" class="js-smooth-scroll">
-					<div class="js-smooth-scroll  header__navigation-element">Start...</div>
-				</a>
+				<!--<a href="#start" class="js-smooth-scroll">
+					<div class="js-smooth-scroll  header__navigation-element">Contact...</div>
+				</a>-->
 				<a href="#experience" class="js-smooth-scroll">
-					<div class="header__navigation-element  header__navigation-element--experience">Skills...</div>
+					<div class="header__navigation-element  header__navigation-element--experience">About...</div>
 				</a>
 				<a href="#features" class="js-smooth-scroll">
-					<div class="header__navigation-element  header__navigation-element--features">Guarantees...</div>
+					<div class="header__navigation-element  header__navigation-element--features">Contact...</div>
 				</a>
-				<a href="#realizations" class="js-smooth-scroll">
+				<!--<a href="#realizations" class="js-smooth-scroll">
 					<div class="header__navigation-element  header__navigation-element--realizations">Portfolio...</div>
 				</a>
 				<a href="#contact" class="js-smooth-scroll">
 					<div class="header__navigation-element  header__navigation-element--contact">Contact...</div>
-				</a>
+				</a>-->
 			</nav>
 
 			<a href="#start" class="header__title-wrapper  js-smooth-scroll">
-				<div class="header__title-main">Thrisakthi.com</div>
-				<div class="header__title-sub">By Chandrasekharan P V</div>
+				<div class="header__title-main">Thrisakthi Devasthanam</div>
+				<div class="header__title-sub">By Chandrasekharan P V &nbsp;&nbsp;&nbsp;<b>http://thrisakthi.com</b></div>
 			</a>
 
 			<div class="header__social-icons">
@@ -131,27 +147,50 @@
 		<div class="hero__gradient">&nbsp;</div>
 		<div class="hero__pattern">&nbsp;</div>
 		<div class="hero__content">
-			<div class="hero__content-wrapper">
-				<div class="hero__title-wrapper">
-					<!--<div class="hero__title-large">Hello</div>-->
-					<div class="hero__title-small">Thrisakthi Devasthanam</div>
+			<div class="hero__content-wrapper">				
+				<div>
+					<div class="container">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img class="img-responsive" src="style/img/1.jpeg" alt="Slide 1">
+							<div class="carousel-caption">
+							<h3>Lorem<br>ipsum</h3>
+							<p class="hidden-xs">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							</div>
+						</div>
+						<div class="item">
+							<img class="img-responsive" src="style/img/2.jpeg" alt="Slide 2">
+							<div class="carousel-caption">
+							<h3>Lorem<br>ipsum</h3>
+							<p class="hidden-xs">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							</div>
+						</div>
+						<div class="item">
+							<img class="img-responsive" src="style/img/3.jpeg" alt="Slide 3">
+							<div class="carousel-caption">
+							<h3>Lorem<br>ipsum</h3>
+							<p class="hidden-xs">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							</div>
+						</div>
+						</div>
+						<!--<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+						</a>-->
+					</div><!-- /.carousel -->
+					</div>
 				</div>
-				<div class="hero__photo-wrapper">
-					<!--<div class="hero__photo">
-						
-					</div>-->
-				</div>
-				<div class="hero__description">
-					For every ailment that affecting the every field of our life, there are certain prospective and divine remedial measures to relive it and regenerate a successful life.
-					<br>Astrological guidance integrated with dedicated rituals such as Homa Karmas, Poojas, etc. powered by divine justice, are the most favoured in remedial procedures.
-					<br>We perform the above for the benefits of everyone who are suffering the ill-fortune throughout their life.
-					<br>Those who wish to discuss their problems are most welcome. Please call. No direct presence is required for rituals.
-
-				</div>
-				<!--<div class="hero__call-to-action">
-					<a href="https://goo.gl/lp9Gd6" target="_blank" class="hero__button  ghost-button  ghost-button--hero">Download Template &nbsp; <i class="fa fa-download"></i></a>
-					<a href="http://serafin.io/?utm_source=Aurora-Template&utm_medium=Hero-Alt-Button&utm_campaign=Freebie" target="_blank" class="hero__alt-button">...or find out more about me.</a>
-				</div>-->
 			</div>
 		</div>
 	</section>
@@ -193,11 +232,18 @@
 			<div class="experience__hollow-arrow">&nbsp;</div>
 			<div class="experience__wrapper">
 				<div class="section-header">
-					<div class="section-header__title  section-header__title--experience">My Skills...</div>
-					<div class="section-header__subtitle">Software and technologies that I'm experienced in</div>
+					<div class="section-header__title  section-header__title--experience">About...</div>
+					<!--<div class="section-header__subtitle">Software and technologies that I'm experienced in</div>-->
 				</div>
 				<div class="experience__icons-wrapper">
-					<div class="experience__icon  experience__icon--html5">
+					<br/><br/>
+					<div class="section-header__subtitle">
+					For every ailment that affecting the every field of our life, there are certain prospective and divine remedial measures to relive it and regenerate a successful life.
+					<br>Astrological guidance integrated with dedicated rituals such as Homa Karmas, Poojas, etc. powered by divine justice, are the most favoured in remedial procedures.
+					<br>We perform the above for the benefits of everyone who are suffering the ill-fortune throughout their life.
+					<br>Those who wish to discuss their problems are most welcome. Please call. No direct presence is required for rituals.
+					</div>
+					<!--<div class="experience__icon  experience__icon--html5">
 						<div class="experience__icon-description">HTML5</div>
 					</div>
 					<div class="experience__icon  experience__icon--css3">
@@ -232,7 +278,7 @@
 					</div>
 					<div class="experience__icon  experience__icon--foundation">
 						<div class="experience__icon-description">Foundation 5</div>
-					</div>
+					</div>-->
 				</div>
 			</div>
 		</section>
