@@ -714,6 +714,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   width: 100%;
   height: 1000px;
   overflow: hidden;
+  background-color: black;
 }
 
 .hero__background {
@@ -723,8 +724,21 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   z-index: -400;
   width: 100%;
   height: 100%;
-  background-image: url("../img/hero_background.jpg");
+  background-image: url("../img/tenor.gif");
+  background-repeat:space;
+  background-color: black;
+}
+
+.hero__background-b{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -400;
+  width: 100%;
+  height: 100%;
+  /*background-image: url("../img/b.jpeg");*/
   background-repeat: repeat;
+   background-color: black;
 }
 
 @-webkit-keyframes HeroGradient {
