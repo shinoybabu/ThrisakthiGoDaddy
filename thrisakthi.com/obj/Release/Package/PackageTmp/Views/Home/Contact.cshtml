@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+@*<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>*@
+
+
+<style>
+    #map {
+        height: 410px;
+        width: 100%;
+    }
+</style>
+<br /><br />
+<div style="color:white;" class="row jumbotron">
+    <div class="col-sm-3">        
+        <h2>Address</h2>
+        <h4>
+            <address style="background-color:#a3ccff8a; padding:5px;">
+                Chandrasekharan P.V<br /><br />
+                Astrologer<br />
+                Thrisakthi Devasthanam<br />
+                P.O.Vadakkekkara<br />
+                N. Paravur<br />
+                Ernakulam Dist.<br />
+                Pin: 683522<br /><br />
+                Phone No. <br />+919744845374 / +917736045374
+                <br /><br />(8am to 10pm)
+                <br /><br /><a style="color:blue" href="mailto:thrisakthi.dev@gmail.com?subject=Appointment">thrisakthi.dev@gmail.com</a>
+            </address>
+        </h4>
+        
+    </div>
+    <div class="col-sm-9">
+        <h2 style="color:white;">Google Map</h2>
+        <div  id="map"></div>
+    </div>
+    
+</div>
+
+<script>
+      function initMap() {
+          var uluru = { lat: 10.163631, lng: 76.210514 };
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 7,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAP5Egj1zEcFVArv-yg0ZZmwnB0lKFBbKg&callback=initMap">
+</script>
