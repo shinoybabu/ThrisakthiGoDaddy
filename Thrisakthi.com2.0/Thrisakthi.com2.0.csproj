@@ -190,6 +190,8 @@
     <Content Include="Content\css\templatemo-style.css" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\fonts\manorama-malayalam95\india typing.png" />
+    <Content Include="Content\fonts\manorama-malayalam95\read me.html" />
     <Content Include="Content\img\about-icon.png" />
     <Content Include="Content\img\close.png" />
     <Content Include="Content\img\contact-icon.png" />
@@ -227,6 +229,7 @@
     <Content Include="Content\js\vendor\jquery-1.11.2.min.js" />
     <Content Include="Content\js\vendor\modernizr-2.8.3-respond-1.4.2.min.js" />
     <Content Include="Content\js\vendor\npm.js" />
+    <Content Include="Content\Malayalam.css" />
     <Content Include="Content\videos\video.mp4" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -242,6 +245,8 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\manorama-malayalam95\debug.log" />
+    <Content Include="Content\fonts\manorama-malayalam95\manorama-malayalam95.ttf" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -289,6 +294,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\M.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

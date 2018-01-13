@@ -12,6 +12,10 @@ namespace Thrisakthi.com2._0.Controllers
         {
             return View();
         }
+        public ActionResult M()
+        {
+            return View();
+        }
 
         public ActionResult About()
         {
