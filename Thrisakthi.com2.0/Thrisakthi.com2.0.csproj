@@ -192,6 +192,12 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\fonts\manorama-malayalam95\india typing.png" />
     <Content Include="Content\fonts\manorama-malayalam95\read me.html" />
+    <Content Include="Content\img\E.png" />
+    <Content Include="Content\img\E2.png" />
+    <Content Include="Content\img\E3.png" />
+    <Content Include="Content\img\E4.png" />
+    <Content Include="Content\img\E5.png" />
+    <Content Include="Content\img\M2.png" />
     <Content Include="Content\img\about-icon.png" />
     <Content Include="Content\img\close.png" />
     <Content Include="Content\img\contact-icon.png" />

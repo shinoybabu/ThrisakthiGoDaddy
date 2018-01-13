@@ -534,10 +534,14 @@ jQuery(document).ready(function($){
     });
     
     //change visible slide
-    sliderNav.on('click', 'li', function(event){
-      event.preventDefault();
+    sliderNav.on('click', 'li', function (event) {
+        debugger;
+      
       var selectedItem = $(this);
-      if(!selectedItem.hasClass('selected')) {
+      if (selectedItem.hasClass('external'))
+      {event.defaults;}
+      else if(!selectedItem.hasClass('selected')) {
+          event.preventDefault();
         // if it's not already selected
         var selectedPosition = selectedItem.index(),
           activePosition = slidesWrapper.find('li.selected').index();
