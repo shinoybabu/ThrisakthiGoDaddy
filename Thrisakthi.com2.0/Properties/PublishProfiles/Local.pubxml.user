@@ -124,7 +124,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/28/2015 04:04:30</publishTime>
     </File>
     <File Include="bin/Thrisakthi.com.dll">
-      <publishTime>11/25/2017 15:21:14</publishTime>
+      <publishTime>01/13/2018 22:39:27</publishTime>
     </File>
     <File Include="bin/Thrisakthi.com2.0.dll">
       <publishTime>11/25/2017 14:38:13</publishTime>
@@ -154,7 +154,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/25/2017 12:21:10</publishTime>
     </File>
     <File Include="Content/css/templatemo-style.css">
-      <publishTime>11/30/2017 13:22:08</publishTime>
+      <publishTime>01/13/2018 19:20:42</publishTime>
     </File>
     <File Include="Content/fonts/fontawesome-webfont.eot">
       <publishTime>11/25/2017 12:21:23</publishTime>
@@ -185,6 +185,18 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/fonts/glyphicons-halflings-regular.woff">
       <publishTime>11/25/2017 12:21:23</publishTime>
+    </File>
+    <File Include="Content/fonts/manorama-malayalam95/debug.log">
+      <publishTime>01/13/2018 20:09:29</publishTime>
+    </File>
+    <File Include="Content/fonts/manorama-malayalam95/india typing.png">
+      <publishTime>09/19/2015 13:31:38</publishTime>
+    </File>
+    <File Include="Content/fonts/manorama-malayalam95/manorama-malayalam95.ttf">
+      <publishTime>11/25/2012 23:16:29</publishTime>
+    </File>
+    <File Include="Content/fonts/manorama-malayalam95/read me.html">
+      <publishTime>09/19/2015 17:30:06</publishTime>
     </File>
     <File Include="Content/img/about-icon.png">
       <publishTime>11/25/2017 12:21:38</publishTime>
@@ -236,6 +248,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/img/logo.png">
       <publishTime>11/25/2017 12:21:38</publishTime>
+    </File>
+    <File Include="Content/img/M.png">
+      <publishTime>01/13/2018 22:31:18</publishTime>
     </File>
     <File Include="Content/img/next.png">
       <publishTime>11/25/2017 12:21:38</publishTime>
@@ -297,8 +312,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/js/vendor/npm.js">
       <publishTime>11/25/2017 12:21:54</publishTime>
     </File>
+    <File Include="Content/Malayalam.css">
+      <publishTime>01/13/2018 21:25:06</publishTime>
+    </File>
     <File Include="Content/Site.css">
-      <publishTime>11/25/2017 11:38:50</publishTime>
+      <publishTime>01/13/2018 21:25:39</publishTime>
     </File>
     <File Include="Content/videos/video.mp4">
       <publishTime>11/25/2017 12:22:08</publishTime>
@@ -406,7 +424,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/25/2017 11:38:50</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>11/25/2017 14:37:57</publishTime>
+      <publishTime>01/13/2018 22:38:57</publishTime>
+    </File>
+    <File Include="Views/Home/M.cshtml">
+      <publishTime>01/13/2018 21:37:00</publishTime>
     </File>
     <File Include="Views/Manage/AddPhoneNumber.cshtml">
       <publishTime>11/25/2017 11:39:40</publishTime>
@@ -445,7 +466,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/25/2017 11:38:50</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/25/2017 15:17:21</publishTime>
+      <publishTime>01/13/2018 21:41:33</publishTime>
     </File>
   </ItemGroup>
 </Project>

@@ -209,6 +209,7 @@
     <Content Include="Content\img\left-feature-image.png" />
     <Content Include="Content\img\loading.gif" />
     <Content Include="Content\img\logo.png" />
+    <Content Include="Content\img\M.png" />
     <Content Include="Content\img\next.png" />
     <Content Include="Content\img\prev.png" />
     <Content Include="Content\img\project-item-01.jpg" />

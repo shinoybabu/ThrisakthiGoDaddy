@@ -36,13 +36,26 @@ video::-webkit-media-controls {
 }
 
 .overlay {
-  position: absolute;
+  /*position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
-  background-color: rgba(0,0,0,0.75); /*dim the background*/
+  z-index: 1;*/
+  /*background-color: rgba(0,0,0,0.75);*/
+    background-color: black; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    /*background-image: url('../img/background4.jpg');*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*opacity: 0.9;
+    filter: alpha(opacity=90);*/
 }
 
 .primary-button a {
@@ -132,7 +145,7 @@ video::-webkit-media-controls {
 
 .cd-slider-nav ul li {
   display: inline-block;
-  margin: 80px 40px;
+  margin: 20px 40px;
 }
 
 .cd-slider-nav ul li a {
@@ -216,7 +229,7 @@ video::-webkit-media-controls {
 
 .heading {
   text-align: center;
-  margin-bottom: 180px;
+  margin-bottom: 100px;
 }
 
 .heading h1 {
@@ -232,7 +245,7 @@ video::-webkit-media-controls {
   font-size: 16px;
   text-transform: uppercase;
   color: #ffbb05;
-  font-weight: 300;
+  font-weight: bold;
   letter-spacing: 0.5px;
 }
 
