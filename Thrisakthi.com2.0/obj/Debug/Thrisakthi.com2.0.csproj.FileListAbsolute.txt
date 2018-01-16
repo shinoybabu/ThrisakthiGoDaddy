@@ -133,6 +133,6 @@ F:\Shinoy\GoDaddy\ThrisakthiGoDaddy\Thrisakthi.com2.0\bin\Microsoft.Owin.Securit
 F:\Shinoy\GoDaddy\ThrisakthiGoDaddy\Thrisakthi.com2.0\bin\Microsoft.Owin.Security.Google.xml
 F:\Shinoy\GoDaddy\ThrisakthiGoDaddy\Thrisakthi.com2.0\bin\Microsoft.Owin.Security.Twitter.xml
 F:\Shinoy\GoDaddy\ThrisakthiGoDaddy\Thrisakthi.com2.0\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-F:\Shinoy\GoDaddy\ThrisakthiGoDaddy\Thrisakthi.com2.0\obj\Debug\Thrisakthi.com2.0.csprojResolveAssemblyReference.cache
 F:\Shinoy\GoDaddy\ThrisakthiGoDaddy\Thrisakthi.com2.0\obj\Debug\Thrisakthi.com.dll
 F:\Shinoy\GoDaddy\ThrisakthiGoDaddy\Thrisakthi.com2.0\obj\Debug\Thrisakthi.com.pdb
+F:\Shinoy\GoDaddy\ThrisakthiGoDaddy\Thrisakthi.com2.0\obj\Debug\Thrisakthi.com2.0.csprojResolveAssemblyReference.cache
