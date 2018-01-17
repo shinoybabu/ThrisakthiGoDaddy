@@ -197,6 +197,8 @@
     <Content Include="Content\img\E3.png" />
     <Content Include="Content\img\E4.png" />
     <Content Include="Content\img\E5.png" />
+    <Content Include="Content\img\homakarma.jpg" />
+    <Content Include="Content\img\jyothisham.jpg" />
     <Content Include="Content\img\M2.png" />
     <Content Include="Content\img\about-icon.png" />
     <Content Include="Content\img\close.png" />
