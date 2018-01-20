@@ -124,7 +124,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/28/2015 04:04:30</publishTime>
     </File>
     <File Include="bin/Thrisakthi.com.dll">
-      <publishTime>01/17/2018 20:21:27</publishTime>
+      <publishTime>01/19/2018 05:56:02</publishTime>
     </File>
     <File Include="bin/Thrisakthi.com2.0.dll">
       <publishTime>11/25/2017 14:38:13</publishTime>
@@ -366,6 +366,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="packages.config">
       <publishTime>11/25/2017 11:40:47</publishTime>
     </File>
+    <File Include="robots.txt">
+      <publishTime>01/20/2018 07:08:06</publishTime>
+    </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>11/25/2017 11:39:09</publishTime>
     </File>
@@ -404,6 +407,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Scripts/_references.js">
       <publishTime>11/25/2017 12:21:55</publishTime>
+    </File>
+    <File Include="sitemap.xml">
+      <publishTime>01/19/2018 05:51:04</publishTime>
     </File>
     <File Include="Views/Account/ConfirmEmail.cshtml">
       <publishTime>11/25/2017 11:39:39</publishTime>
@@ -448,10 +454,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/25/2017 11:38:50</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>01/17/2018 20:01:01</publishTime>
+      <publishTime>01/19/2018 06:49:03</publishTime>
     </File>
     <File Include="Views/Home/M.cshtml">
-      <publishTime>01/17/2018 20:00:40</publishTime>
+      <publishTime>01/19/2018 06:56:50</publishTime>
     </File>
     <File Include="Views/Manage/AddPhoneNumber.cshtml">
       <publishTime>11/25/2017 11:39:40</publishTime>
@@ -478,7 +484,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/25/2017 11:39:40</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>01/17/2018 19:33:28</publishTime>
+      <publishTime>01/19/2018 09:52:57</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>11/25/2017 11:39:40</publishTime>

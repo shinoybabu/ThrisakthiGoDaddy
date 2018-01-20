@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /bin/
+Disallow: /Views/Account/
+Disallow: /Views/Manage/
+Disallow: /Views/Shared/
+Disallow: /Views/_ViewStart.cshtml/
+Disallow: /Views/Web.config/
+
+Sitemap: http://thrisakthi.com/sitemap.xml
