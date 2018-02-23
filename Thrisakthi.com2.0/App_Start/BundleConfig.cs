@@ -23,8 +23,8 @@ namespace Thrisakthi.com2._0
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+            bundles.Add(new StyleBundle("~/Content/css/style").Include(
+                      //"~/Content/bootstrap.css",
                       "~/Content/site.css"));
         }
     }

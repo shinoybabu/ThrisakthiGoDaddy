@@ -1,5 +1,5 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 20px;
 }
 
@@ -21,4 +21,21 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.fbtw i {
+margin-right: 10px;
+    color: #000;
+    font-size: 15px;
+    width: 34px;
+    height: 34px;
+    background-color: #ffbb05;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 34px;
+}
+
+.fbtw i:hover {
+    background-color: #fff;
 }
