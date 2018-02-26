@@ -194,10 +194,16 @@
                                                         zoom: 7,
                                                         center: uluru
                                                     });
+                                                    var image = 'http://thrisakthi.com/Content/img/thrisakthi.png';
                                                     var marker = new google.maps.Marker({
                                                         position: uluru,
-                                                        map: map
+                                                        map: map,
+                                                        icon: image
                                                     });
+                                                    marker.addListener('click', OpenURL);
+                                                }
+                                                function OpenURL() {
+                                                    window.open('https://www.google.co.in/maps/place/Thrisakthi/@@10.1625663,76.2095513,17z/data=!3m1!4b1!4m5!3m4!1s0x3b081a6888e75d49:0x6607bd06a57b88d7!8m2!3d10.162561!4d76.21174', '_blank')
                                                 }
                                             </script>
                                             <script async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async async=async defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer defer=defer
