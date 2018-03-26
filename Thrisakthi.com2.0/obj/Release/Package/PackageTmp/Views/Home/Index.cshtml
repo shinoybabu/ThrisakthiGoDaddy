@@ -12,9 +12,18 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <script src="~/Content/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="https://developers.facebook.com/docs/javascript"></script>
 </head>
 <body>
-
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
     <div class="overlay"></div>
     @*<section class="top-part">
             <video controls autoplay loop>
@@ -24,10 +33,13 @@
             </video>
         </section>*@
 
-
+    
     <section class="cd-hero">
 
         <div class="cd-slider-nav">
+            @*<div style="position:absolute;top:-10px;right:0px;background-color:black">
+                <div class="fb-page" data-href="https://www.facebook.com/ThrisakthiDev/" data-tabs="timeline" data-width="380" data-height="60" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ThrisakthiDev/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ThrisakthiDev/">Thrisakthi Devasthanam</a></blockquote></div>  
+            </div>*@
             <nav>
                 <span class="cd-marker item-1"></span>
                 <ul>
@@ -51,8 +63,7 @@
                         <ul class="social-icons" style="padding-left:0px;">
                             <i><a href="https://www.facebook.com/ThrisakthiDev/" target="_blank"><i class="fa fa-facebook"></i></a></i>
                             <i><a href="#"><i class="fa fa-twitter"></i></a></i>
-                        </ul>
-
+                        </ul>                        
                     </div>
                 </div>
                 <div class="cd-full-width first-slide">
@@ -67,14 +78,16 @@
                                         If you wish to resolve such problems by means of the astrological guidance and the divine rituals
                                         (such as Homa Karmas, etc.) are most welcome. No direct presence is required for remedial procedures.
                                     </p>
-
+                                    <div>
+                                        <div class="fb-page" data-href="https://www.facebook.com/ThrisakthiDev/" data-tabs="timeline" data-width="380" data-height="60" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ThrisakthiDev/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ThrisakthiDev/">Thrisakthi Devasthanam</a></blockquote></div>
+                                    </div>
                                 </div>
 
                             </div>
                         </div>
                     </div>
                 </div>
-
+                
             </li>
 
             <li>
@@ -170,6 +183,7 @@
                                                     P.O.Vadakkekkara<br />
                                                     North Paravur<br />
                                                     Ernakulam Dist.<br />
+                                                    Kerala<br />
                                                     Pin: 683522<br /><br />
                                                     Phone No.<br />
                                                     &nbsp;+91 9744845374 <br />
